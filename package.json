@@ -6,13 +6,16 @@
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "dependencies": {
-        "babel-plugin-macros": "^3.0.1",
         "globby": "^11.0.2"
+    },
+    "peerDependencies": {
+        "babel-plugin-macros": "^3.0.0"
     },
     "devDependencies": {
         "@babel/core": "7.12.10",
         "@types/node": "14.14.22",
         "@vnus/prettier-config": "0.0.1",
+        "babel-plugin-macros": "3.0.1",
         "prettier": "2.2.1"
     },
     "prettier": "@vnus/prettier-config",
