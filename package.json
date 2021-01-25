@@ -1,6 +1,6 @@
 {
     "name": "require.stories.macro",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "LS Hung <61226932+lokshunhung@users.noreply.github.com>",
     "license": "MIT",
     "main": "lib/index.js",
