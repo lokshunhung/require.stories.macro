@@ -6,6 +6,15 @@ Transform [globby](https://github.com/sindresorhus/globby) glob patterns into ab
 
 `$ yarn add --dev require.stories.macro babel-plugin-macros`
 
+## Caveat
+
+If invalid babel cache is used, add a cache busting comment, see [this](https://github.com/kentcdodds/babel-plugin-macros#babel-cache-problem).
+
+```diff
++ // invalidate cache
+requireStories("**/*.stories.tsx");
+```
+
 ## Usage
 
 This macro should only be used with storybook v5, as a compile-time macro to create `require` statements to be consumed by metro bundler.
