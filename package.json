@@ -15,5 +15,9 @@
         "@vnus/prettier-config": "0.0.1",
         "prettier": "2.2.1"
     },
-    "prettier": "@vnus/prettier-config"
+    "prettier": "@vnus/prettier-config",
+    "files": [
+        "README.md",
+        "lib/*"
+    ]
 }
